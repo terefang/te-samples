@@ -1,0 +1,36 @@
+NAME = [ "<!SS><P>" "<!S><P>"]
+
+SS = [ "<CVV><S>" "<CVC><CVC>" ]
+
+S = [ "<CVV>" "<CVC>" ]
+
+CVV = [ "<C><VX>"  "<CH><VX>" "a<CV>" ]
+
+CV = [ "<C><V>" ]
+
+CVC = [ "<C><V><CKQ>" "<C><V><CH>" ]
+
+P = [ ek tek hotek mene esu hotep ep mete eti ati esi meke et esa hat ]
+
+# - rules 
+"SCH" = [ "dh" "gh" "lh" "rh" "th" ]
+"XCH" = [ "ch" "kh" "ph" "sh" ]
+"CH" = [ "ch" "dh" "gh" "kh" "lh" "ph" "rh" "sh" "th" ]
+"CKQ" = [ "ck" "qu" "qw" "kw" "q" ]
+"VX" = [ "ae" "oe" "ea" "oa" "ai" "ei" "oi" "ou" "uo" ]
+"VAE" = [ "a" "e" ]
+"VOU" = [ "o" "u" ]
+"V" = [ "a" "e" "i" "o" "u" ]
+"C" = [ "b" "c" "d" "f" "g" "h" "j" "k" "l" "m" "n" "p" "q" "r" "s" "t" "w" "x" "z" ]
+
+
+"$REPLACE" = [ "$ak" "$ts" "$a" "$e" "$i" "$o" "$u" ]
+
+"$ak" = [ "ak" "~i[cgkst]h" ]
+"$ts" = [ "ts" "~t[aeiou]+z" ]
+
+"$a" = [ "a" "~a[aou]+" ]
+"$e" = [ "e" "~e[aeiou]+" ]
+"$i" = [ "i" "~i[eiou]+" "~[aeiou]i[aeiou]*" ]
+"$o" = [ "o" "~o[aeiou]+" ]
+"$u" = [ "u" "~u[aeiou]+" ]

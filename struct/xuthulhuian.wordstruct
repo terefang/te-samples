@@ -1,0 +1,54 @@
+NAME = ["<!__CV_1_> <!__CV_2_>"]
+
+WORD=["<~__CV_1_>" "<~__CV_2_>"]
+
+__CV_1_= [
+"<C><VAEI><C>"
+"<C><VOUI><SCH>"
+"<VIY><VAEI><SCH>"
+"<C><C><VV><C><C>"
+"<VIY><VAEI><C><XCH>"
+"<C><VAEI><VOUI><SCH>"
+"<XCH><VAEI><C><C><VX>"
+"<VIY><VAEI><C><VOUI><C>"
+"<VAEI><C><C><VAEI><SCH>"
+"<C><SCH><VOUI><C><VAEI>"
+"<C><C><VIY><C><C><VAEI>"
+"<C><APOS><C><VAEI><SCH>"
+"<VIY><VAEI><C><C><VAEI>"
+"<C><APOS><VIY><VOUI><SCH>"
+"<C><VAEI><C><C><VAEI><SCH>"
+"<VIY><VAEI><C><C><VAEI><C>"
+"<VIY><VOUI><C><C><VOUI><SCH>"
+"<VIY><VAEI><C><C><VAEI><SCH>"
+"<C><APOS><C><VIY><APOS><C><C>"
+"<C><VAEI><C><VOUI><C><C><VAEI>"
+]
+__CV_2_= [
+"<C><VIY><SCH><VAEI><C><VAEI><C>"
+"<VIY><C><APOS><C><VAEI><VAEI><SCH>"
+"<C><C><VIY><C><VAEI><C><C><VOUI><C>"
+"<C><VAEI><DASH><VAEI><C><C><C><VOUI>"
+"<C><APOS><VIY><VAEI><DASH><C><VAEI><C>"
+"<C><C><VAEI><C><C><DASH><C><SCH><VOUI><C>"
+"<VAEI><C><C><VOUI><DASH><C><VAEI><C><VAEI><C>"
+"<VIY><VAEI><C><VAEI><C><DASH><C><VAEI><C><C><VAEI>"
+"<C><C><C><VAEI><C><DASH><VAEI><XCH><APOS><VIY><VAEI>"
+]
+
+# - rules 
+"DASH" = [ "-" ]
+"APOS" = [ "'" ]
+"SCH" = [ "dh" "gh" "lh" "rh" "th" ]
+"XCH" = [ "ch" "kh" "ph" "sh" ]
+"CH" = [ "ch" "dh" "gh" "kh" "lh" "ph" "rh" "sh" "th" ]
+"CKQ" = [ "ck" "qu" "qw" "kw" "q" ]
+"VX" = [ "ae" "oe" "ea" "oa" "ai" "ei" "oi" "ou" "uo" ]
+"VV" = [ "aa" "ee" "ii" "oo" "uu" "yy" ]
+"VAEI" = [ "a" "e" "i" ]
+"VOUI" = [ "o" "u" "i" ]
+"VAE" = [ "a" "e" ]
+"VOU" = [ "o" "u" ]
+"VIY" = [ "i" "y" ]
+"V" = [ "a" "e" "i" "o" "u" "y" ]
+"C" = [ "b" "c" "d" "f" "g" "h" "j" "k" "l" "m" "n" "p" "q" "r" "s" "t" "v" "w" "x" "z" ]
