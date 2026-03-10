@@ -1,0 +1,36 @@
+// RPG Character Descriptor 
+// © 2026 by #Eternauta with help from ChatGPT
+// licensed under CC BY 4.0. 
+// To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+
+DESCR = [ """A <AGE> <HEIGHT> <BUILD> person with <SKIN> skin. 
+Their <EYE> eyes sit above a <NOSETYPE> nose and a <MOUTHTYPE> mouth. 
+They have <HAIR> hair and <EYEBROW> eyebrows framing a <FACESHAPE> face with a <JAWSHAPE> jaw. 
+A <DISTINCTMARK> stands out on their appearance, while their <BEARDTYPE> beard adds to their distinctive look.""" ]
+
+AGE = [ Child Teen Young Adult Mature Middleaged Elderly Old Aged Ancient ]
+HEIGHT = [ Short Average Tall Towering Small Lanky ]
+BUILD = [ Slim Lean Fit Muscular Stocky Heavy Frail Broad Wiry Gaunt ]
+SKIN = [ "<SKINCOLOR> <SKINCONDITION>" ]
+SKINCOLOR = [ Pale Fair Ivory Porcelain Alabaster Light Cream Rosy Ruddy Tan Tanned Olive Golden Bronze Copper Amber
+	Brown Chestnut Mahogany Dark Dusky Ebony Umber ]
+SKINCONDITION = [Freckled Smooth Rough Weathered Wrinkled Scarred Pitted Sallow Ashen Blotchy Blemished Leathery ]
+EYE = [ "<EYESHAPE> <EYECOLOR>" ]
+EYESHAPE = [Round Almond Narrow Hooded Deepset Wide Droopy Sharp Slanted Sunken] 
+EYECOLOR = [Brown Hazel Green Blue Gray Amber Black Violet Silver Golden]
+NOSETYPE = [Aquiline Roman Button Flat Crooked Hooked Broad Narrow Long Short]
+MOUTHTYPE = [Thin Full Wide Small Crooked Tight Soft Sharp Downturned Upturned]
+HAIR = [ "<HAIRSTYLE> <HAIRCOLOR>" ]
+HAIRSTYLE = [Short Long Curly Straight Wavy Braided Shaved Bald Messy Tied]
+HAIRCOLOR = [Black Brown Blonde Auburn Red Silver Gray White Golden Copper ]
+FACESHAPE = [Round Oval Square Long Narrow Wide Angular Sharp Soft Hollow]
+EYEBROW = [Thick Thin Bushy Straight Arched Sharp Soft Narrow Broad Sparse Heavy Curved Slanted
+	High Low Uneven Joined Crooked Trimmed Wild]
+JAWSHAPE = [Square Strong Weak Narrow Broad Sharp Heavy Pointed Receding Angular]
+DISTINCTMARK = [Scar Tattoo Birthmark Burn Freckles Mole Wart Wrinkle Pockmark Bruise 
+	Brand Cut Notch Crack Chip Gap Stain Vein Bump Lump Patch Spot Stripe Mark Crooked 
+	Blind Missing Pierced Branded Stitched Tattooed Frostbitten Sunburned Callused 
+	Blistered Warted Swollen Twisted Bent Cracked Chipped Stubbled Painted Dyed 
+	Inked Marked Sealed Sliced Slashed Scratched] 
+BEARDTYPE = [Stubble Goatee Full Short Long Braided Pointed Square Forked Trimmed Patchy Thick Bushy Curly
+	Straight Rough Wild Tapered Narrow Chinstrap]
